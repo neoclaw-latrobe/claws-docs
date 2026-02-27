@@ -32,6 +32,10 @@ nav:
   - Support:
     - FAQ: support/faq.md
     - Contact: support/contact.md
+  - Legal:
+    - Terms of Service: legal/terms.md
+    - Privacy Policy: legal/privacy.md
+    - Acceptable Use: legal/acceptable-use.md
 
 markdown_extensions:
   - admonition
