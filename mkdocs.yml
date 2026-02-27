@@ -1,0 +1,50 @@
+site_name: Hosted Claws Documentation
+site_url: https://docs.hosted-claws.com
+site_description: Documentation for Hosted Claws — managed OpenClaw hosting
+site_author: Hosted Claws
+
+repo_url: https://github.com/neoclaw-latrobe/claws-docs
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: green
+    accent: green
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Start: getting-started/quickstart.md
+    - Connecting Channels: getting-started/channels.md
+  - Models:
+    - Available Models: models/index.md
+  - Plans & Pricing:
+    - Tiers: pricing/index.md
+  - Support:
+    - FAQ: support/faq.md
+    - Contact: support/contact.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/neoclaw-latrobe
+
+copyright: "&copy; 2026 Hosted Claws"
