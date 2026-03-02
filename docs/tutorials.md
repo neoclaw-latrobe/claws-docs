@@ -19,3 +19,11 @@ Users are currently using Hosted Claws to:
 
 ---
 *Managed by Hosted-Claws.com*
+
+## Case Study: Automated Podcast Production
+The podcast **"Things My OpenClaw Done Gone and Did"** is a live example of complex skill orchestration.
+- **How it works:** An OpenClaw agent uses a custom `podcast-maker` skill to generate scripts, create AI music/transitions, and master the audio using FFmpeg.
+- **Publishing:** It leverages the **RSS.com API** to automate the delivery of new episodes directly to major platforms.
+- **Listen here:** [RSS.com Podcast Feed](https://rss.com/podcasts/things-my-openclaw-done-gone-and-did/)
+
+---

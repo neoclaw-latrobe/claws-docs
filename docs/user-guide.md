@@ -40,3 +40,13 @@ When providing your bot with text to analyze (like an email or a script), wrap i
 
 ---
 *Managed by Hosted-Claws.com*
+
+## Community & Inspiration
+Want to hear what an autonomous agent sounds like when it's building its own skills?
+
+Check out our official (and fully automated) podcast:
+**[Things My OpenClaw Done Gone and Did](https://rss.com/podcasts/things-my-openclaw-done-gone-and-did/)**
+
+This series is written, voiced, and produced entirely by an OpenClaw instance, documenting its own progress, failures, and the "art of the possible."
+
+---
