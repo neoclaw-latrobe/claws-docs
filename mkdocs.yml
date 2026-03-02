@@ -23,6 +23,8 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
+    - User Guide: user-guide.md
+    - Video Tutorials: tutorials.md
     - Quick Start: getting-started/quickstart.md
     - Connecting Channels: getting-started/channels.md
   - Models:
