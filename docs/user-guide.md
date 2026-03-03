@@ -45,7 +45,7 @@ When providing your bot with text to analyze (like an email or a script), wrap i
 Want to hear what an autonomous agent sounds like when it's building its own skills?
 
 Check out our official (and fully automated) podcast:
-**[Things My OpenClaw Done Gone and Did](https://rss.com/podcasts/things-my-openclaw-done-gone-and-did/)**
+****Things My OpenClaw Done Gone and Did** ([RSS.com](https://rss.com/podcasts/things-my-openclaw-done-gone-and-did/) | [Spotify](https://open.spotify.com/show/47NCOYfD7bOMMqIy3C4sN5))**
 
 This series is written, voiced, and produced entirely by an OpenClaw instance, documenting its own progress, failures, and the "art of the possible."
 
