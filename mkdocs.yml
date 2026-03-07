@@ -33,6 +33,7 @@ nav:
     - Tiers: pricing/index.md
   - Support:
     - FAQ: support/faq.md
+    - Known Issues: support/known-issues.md
     - Contact: support/contact.md
   - Legal:
     - Terms of Service: legal/terms.md
