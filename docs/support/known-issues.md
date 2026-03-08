@@ -42,4 +42,53 @@ We are monitoring the upstream issue and will update all customer instances as s
 
 ---
 
-*Last updated: 7 March 2026*
+## Tool Error Warnings After Successful Operations
+
+**Status:** Awaiting upstream fix  
+**Affected:** All instances  
+**Upstream Issue:** [openclaw/openclaw#39406](https://github.com/openclaw/openclaw/issues/39406)
+
+### Symptoms
+
+You may occasionally see warning messages like:
+
+```
+⚠️ 📝 Edit: in ~/IDENTITY.md (521 chars) failed
+```
+
+...even when your assistant reports that the task completed successfully.
+
+### Cause
+
+When a tool (like file edit) fails on the first attempt, OpenClaw immediately shows a warning. If the assistant retries and succeeds, you'll see both:
+
+1. The success message ("Done!" or similar)
+2. The earlier warning bubble
+
+This is intentional upstream behavior — OpenClaw surfaces all tool errors, even transient ones the assistant recovered from.
+
+### Workarounds
+
+**Option 1: Trust the final message**
+
+If your assistant says the task succeeded, it did. The warning refers to an earlier failed attempt that was automatically retried.
+
+**Option 2: Check for confirmation**
+
+Ask your assistant: "Did that actually work?" — it will confirm whether the operation succeeded.
+
+### What the warnings mean
+
+| Warning | What happened |
+|---------|---------------|
+| `Edit: ... failed` | File edit content didn't match; assistant likely retried with corrected content |
+| `exec: ... failed` | Command failed; assistant may have adjusted and retried |
+| `read: ... failed` | File not found or inaccessible; assistant may have tried an alternative path |
+
+### Resolution
+
+We've raised a feature request to add a config option that suppresses transient errors when the assistant self-corrects. We'll update all instances when this is available.
+
+---
+
+*Last updated: 8 March 2026*
