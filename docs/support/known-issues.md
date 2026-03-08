@@ -2,6 +2,11 @@
 
 This page tracks known issues affecting Hosted Claws instances and their workarounds.
 
+| Issue | Status | Affected |
+|-------|--------|----------|
+| [Config Editor Slow to Load](#config-editor-slow-to-load) | Awaiting upstream fix | All instances |
+| [Tool Error Warnings After Successful Operations](#tool-error-warnings-after-successful-operations) | Awaiting upstream fix | All instances |
+
 ---
 
 ## Config Editor Slow to Load
